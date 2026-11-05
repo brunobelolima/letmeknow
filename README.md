@@ -18,3 +18,7 @@ O formulário prepara uma mensagem de WhatsApp, sem armazenar informações. Os 
 
 ## Experiências de clientes
 Quatro relatos anonimizados, resumidos e adaptados do PDF de feedback fornecido. Não incluir nomes, marcas, cidades ou logotipos dos clientes. A proposta comercial individual não foi publicada.
+
+
+## Fotografias atualizadas
+As imagens em `assets/priscila-braz-hero.webp` e `assets/priscila-braz-perfil.webp` foram fornecidas para esta atualização. Envie a pasta `assets` junto aos arquivos HTML, CSS e JS.

@@ -9,3 +9,19 @@
 
 /* Depoimentos anonimizados */
 .testimonials{background:#f7f8f4}.testimonials-grid{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:20px;margin-top:35px}.testimonial-card{background:#fff;border:1px solid rgba(16,24,41,.12);border-radius:18px;padding:32px;display:flex;flex-direction:column;gap:16px;box-shadow:0 10px 35px rgba(16,24,41,.04)}.testimonial-sector{font-size:.75rem;font-weight:800;letter-spacing:.09em;color:#677200}.testimonial-card h3{font-size:1.4rem;color:#101829;line-height:1.2}.testimonial-card p{line-height:1.7;color:#3c4658;flex:1}.testimonial-foot{font-size:.78rem;color:#657080;border-top:1px solid #e8e9e6;padding-top:14px}.testimonials-note{font-size:.82rem;color:#657080;margin-top:24px}@media(max-width:720px){.testimonials-grid{grid-template-columns:1fr}.testimonial-card{padding:24px}}
+
+/* Fotografia profissional de Priscila Braz — portfólio institucional */
+.priscila-photo { margin: 0 0 2rem; max-width: 490px; }
+.priscila-photo img { display: block; width: 100%; height: auto; aspect-ratio: 4 / 5; object-fit: cover; object-position: center 38%; border-radius: 20px; background: #e9e9ef; }
+.priscila-photo figcaption { font-size: .85rem; margin-top: .7rem; color: #657080; }
+@media (max-width: 760px) { .priscila-photo { max-width: 100%; } }
+
+/* Fotografias originais fornecidas para o site: retrato executivo na abertura e retrato acolhedor na biografia. */
+.hero-photo-wrap{position:relative;height:560px;align-self:end;overflow:hidden;border-radius:28px 28px 0 0;border:1px solid rgba(255,255,255,.14);border-bottom:0;background:#303846;box-shadow:0 24px 65px rgba(0,0,0,.23)}
+.hero-photo{display:block;width:100%;height:100%;object-fit:cover;object-position:center 36%}
+.hero-photo-wrap:after{content:"";position:absolute;inset:50% 0 0;background:linear-gradient(transparent,rgba(16,24,41,.8));pointer-events:none}
+.hero-photo-label{position:absolute;z-index:1;left:28px;bottom:25px;display:grid;gap:2px;color:white}
+.hero-photo-label strong{font:800 24px Manrope,sans-serif}.hero-photo-label span{font-size:12px;color:#e0e4ee}
+.priscila-photo img{object-position:center 30%;aspect-ratio:4/5}
+@media(max-width:950px){.hero-photo-wrap{height:490px}}
+@media(max-width:700px){.hero-photo-wrap{height:430px;max-width:440px;margin:22px auto 0;border-radius:20px 20px 0 0}.hero-photo-label{left:20px;bottom:20px}}
