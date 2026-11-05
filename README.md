@@ -1,24 +1,18 @@
-# Let Me Know — Site institucional de Priscila Braz
+# Let Me Know — Priscila Braz
 
-Site responsivo e estático (HTML, CSS, JavaScript), seguindo a identidade visual do cartão de visitas: azul-marinho, branco, verde-lima e balão com check.
+Site institucional estático para GitHub Pages.
 
-## Contatos
-- WhatsApp: +55 11 94762-2105
-- E-mail: contatoletmeknow@gmail.com
-- Instagram: @letmeknow (confirmar se a URL corresponde ao perfil oficial)
-- LinkedIn: https://www.linkedin.com/in/priscila-braz-n
+## Publicação
+1. Crie ou abra o repositório no GitHub.
+2. Envie `index.html`, `styles.css`, `script.js` e a pasta `assets` para a raiz.
+3. Ative Settings → Pages → Deploy from a branch → main → /(root).
 
-## Publicar no GitHub Pages
-1. Crie um repositório público no GitHub.
-2. Envie `index.html`, `styles.css` e `script.js` para a raiz.
-3. Em Settings > Pages, selecione Deploy from a branch, branch main e pasta / (root).
-4. Aguarde a URL fornecida pelo GitHub.
+## Ajustes realizados
+- Atualização da descrição e biografia profissional.
+- Fotografia extraída da página 2 do PDF de anotações fornecido.
+- Indicadores executivos mantidos com contexto.
+- Remoção do texto final da seção de experiências.
+- Instagram pessoal @pribraz_.
+- Campo obrigatório de telefone no formulário, enviado na mensagem ao WhatsApp +55 11 94762-2105.
 
-O formulário prepara uma mensagem de WhatsApp, sem armazenar informações. Os resultados apresentados são da trajetória profissional de Priscila, conforme currículo enviado, e não garantias da Let Me Know. Revise as informações e links antes de publicar.
-
-## Experiências de clientes
-Quatro relatos anonimizados, resumidos e adaptados do PDF de feedback fornecido. Não incluir nomes, marcas, cidades ou logotipos dos clientes. A proposta comercial individual não foi publicada.
-
-
-## Fotografias atualizadas
-As imagens em `assets/priscila-braz-hero.webp` e `assets/priscila-braz-perfil.webp` foram fornecidas para esta atualização. Envie a pasta `assets` junto aos arquivos HTML, CSS e JS.
+O formulário não armazena dados: abre o WhatsApp com a mensagem preenchida.

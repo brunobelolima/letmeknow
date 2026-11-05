@@ -29,8 +29,9 @@ document.getElementById('contact-form').addEventListener('submit', event => {
   if (!form.reportValidity()) return;
   const nome = document.getElementById('nome').value.trim();
   const empresa = document.getElementById('empresa').value.trim();
+  const telefone = document.getElementById('telefone').value.trim();
   const mensagem = document.getElementById('mensagem').value.trim();
-  const texto = `Olá, Priscila! Meu nome é ${nome}.${empresa ? ` Empresa: ${empresa}.` : ''}\n\n${mensagem}`;
+  const texto = `Olá, Priscila! Meu nome é ${nome}.${empresa ? ` Empresa: ${empresa}.` : ''} Telefone: ${telefone}.\n\n${mensagem}`;
   const status = document.getElementById('form-status');
   if (CONTACT.whatsapp) {
     if (!/^\d{10,15}$/.test(CONTACT.whatsapp)) { status.textContent = 'O WhatsApp configurado é inválido. Verifique o arquivo script.js.'; return; }
