@@ -1,16 +1,20 @@
-# Let Me Know — Site institucional
+# Let Me Know — Site institucional de Priscila Braz
 
-Site estático responsivo em HTML, CSS e JavaScript, adaptado à identidade visual do cartão de Priscila Braz: azul-marinho, branco, verde-lima e símbolo de balão com check.
+Site responsivo e estático (HTML, CSS, JavaScript), seguindo a identidade visual do cartão de visitas: azul-marinho, branco, verde-lima e balão com check.
 
-## Contatos configurados
+## Contatos
 - WhatsApp: +55 11 94762-2105
 - E-mail: contatoletmeknow@gmail.com
-- Instagram: @letmeknow (confirme o endereço antes de publicar)
+- Instagram: @letmeknow (confirmar se a URL corresponde ao perfil oficial)
+- LinkedIn: https://www.linkedin.com/in/priscila-braz-n
 
 ## Publicar no GitHub Pages
 1. Crie um repositório público no GitHub.
-2. Envie `index.html`, `styles.css` e `script.js` para a raiz do repositório.
-3. Em Settings > Pages, escolha Deploy from a branch, branch main, pasta / (root).
-4. Aguarde a publicação e abra o endereço fornecido pelo GitHub.
+2. Envie `index.html`, `styles.css` e `script.js` para a raiz.
+3. Em Settings > Pages, selecione Deploy from a branch, branch main e pasta / (root).
+4. Aguarde a URL fornecida pelo GitHub.
 
-O formulário abre o WhatsApp com a mensagem preenchida; não armazena dados nem exige servidor. Revise os textos dos serviços antes de publicar.
+O formulário prepara uma mensagem de WhatsApp, sem armazenar informações. Os resultados apresentados são da trajetória profissional de Priscila, conforme currículo enviado, e não garantias da Let Me Know. Revise as informações e links antes de publicar.
+
+## Experiências de clientes
+Quatro relatos anonimizados, resumidos e adaptados do PDF de feedback fornecido. Não incluir nomes, marcas, cidades ou logotipos dos clientes. A proposta comercial individual não foi publicada.
