@@ -25,3 +25,50 @@
 .priscila-photo img{object-position:center 30%;aspect-ratio:4/5}
 @media(max-width:950px){.hero-photo-wrap{height:490px}}
 @media(max-width:700px){.hero-photo-wrap{height:430px;max-width:440px;margin:22px auto 0;border-radius:20px 20px 0 0}.hero-photo-label{left:20px;bottom:20px}}
+
+/* Revisão 2: fundos ilustrados, retrato compacto, indicadores modernos e relatos em destaque */
+.services .section-heading{margin-bottom:25px}
+.service-card{position:relative;isolation:isolate;overflow:hidden;min-height:355px;padding:0 20px 22px;background:#fff;justify-content:flex-end}
+.service-card:before{content:"";position:absolute;z-index:-1;inset:0 0 auto;height:145px;background:#edf2e1 center/cover no-repeat}
+.service-card-1:before{background-image:url('assets/jornada.svg')}
+.service-card-2:before{background-image:url('assets/processos.svg')}
+.service-card-3:before{background-image:url('assets/crm.svg')}
+.service-card-4:before{background-image:url('assets/indicadores.svg')}
+.service-top{position:absolute;top:12px;right:14px;background:#fff;border-radius:30px;padding:3px 10px}
+.service-card h3{margin:165px 0 7px;font-size:17px}
+.service-card p{font-size:12px;line-height:1.55}
+.service-arrow{margin-top:8px;font-size:20px}
+.career{padding:58px 0 64px}
+.career .section-heading{margin:8px 0 22px}
+.career .section-heading h2{margin:6px 0 10px;font-size:clamp(30px,3.4vw,45px)}
+.career .section-heading .lead{font-size:15px;line-height:1.5;max-width:820px;margin:0;color:#455065}
+.career-grid{grid-template-columns:1fr 1.1fr;gap:28px;align-items:stretch}
+.career-intro{display:grid;grid-template-columns:165px 1fr;gap:12px 18px;align-content:start}
+.priscila-photo{grid-row:1/4;max-width:165px;margin:0}
+.priscila-photo img{aspect-ratio:3/4;max-height:235px;border-radius:15px}
+.priscila-photo figcaption{font-size:10px;line-height:1.35}
+.career-intro p{font-size:12px;line-height:1.55;margin:0}
+.career-intro .underlined-link{font-size:12px;margin-top:3px;align-self:start}
+.career-results{padding:18px 20px;border-radius:16px}
+.career-results h3{font-size:15px;margin:0 0 12px}
+.career-results{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:10px}
+.career-results h3,.career-results .result-note{grid-column:1/-1}
+.result{display:flex;flex-direction:column;align-items:flex-start;gap:5px;border:1px solid #e5e9d9;background:linear-gradient(140deg,#f6f8ed,#fff);border-radius:12px;padding:13px;min-height:118px}
+.result-index{font-size:10px;color:#7b8c00;font-weight:800;letter-spacing:.15em}
+.result strong{min-width:0;font-size:clamp(23px,2.4vw,32px);letter-spacing:-1.3px;line-height:1;color:#1a2b43}
+.result span:not(.result-index){font-size:11px;line-height:1.4;color:#515e6c}
+.result-note{margin:0;font-size:10px;line-height:1.4}
+.testimonials{padding:58px 0 65px}
+.testimonials .section-heading{align-items:start;margin-bottom:16px}
+.testimonials .section-heading h2{font-size:clamp(30px,3.3vw,44px);margin:7px 0}
+.testimonials .section-heading>p{font-size:12px;line-height:1.45;max-width:390px}
+.testimonials-grid{margin-top:0;gap:12px}
+.testimonial-card{padding:19px 22px;gap:7px;border-radius:14px}
+.testimonial-card h3{font-size:16px;margin:0}
+.testimonial-sector{font-size:10px}
+.testimonial-quote{position:relative;margin:0;font-size:12px;line-height:1.55;color:#455065;flex:1}
+.testimonial-quote::first-letter{font-size:18px;color:#829400;font-weight:800}
+.testimonial-foot{font-size:10px;padding-top:7px}
+@media(max-width:850px){.career-grid{grid-template-columns:1fr}.career-intro{grid-template-columns:180px 1fr}.priscila-photo{max-width:180px}.career-results{grid-template-columns:repeat(2,1fr)}}
+@media(max-width:700px){.service-card{min-height:300px}.service-card h3{margin-top:155px}.career,.testimonials{padding:65px 0}.career-intro{grid-template-columns:1fr}.priscila-photo{grid-row:auto;max-width:100%;width:100%}.priscila-photo img{aspect-ratio:4/3;max-height:340px}.career-results{grid-template-columns:1fr 1fr}.result{min-height:140px}.testimonials-grid{grid-template-columns:1fr}.testimonial-card{padding:22px}}
+@media(max-width:420px){.career-results{grid-template-columns:1fr}.result{min-height:0}}

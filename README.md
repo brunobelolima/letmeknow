@@ -16,3 +16,7 @@ Site institucional estático para GitHub Pages.
 - Campo obrigatório de telefone no formulário, enviado na mensagem ao WhatsApp +55 11 94762-2105.
 
 O formulário não armazena dados: abre o WhatsApp com a mensagem preenchida.
+
+
+## Revisão 2
+Fundos ilustrados locais nos serviços; apresentação compacta de Priscila; indicadores em cards; depoimentos anônimos em aspas.
