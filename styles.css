@@ -72,3 +72,27 @@
 @media(max-width:850px){.career-grid{grid-template-columns:1fr}.career-intro{grid-template-columns:180px 1fr}.priscila-photo{max-width:180px}.career-results{grid-template-columns:repeat(2,1fr)}}
 @media(max-width:700px){.service-card{min-height:300px}.service-card h3{margin-top:155px}.career,.testimonials{padding:65px 0}.career-intro{grid-template-columns:1fr}.priscila-photo{grid-row:auto;max-width:100%;width:100%}.priscila-photo img{aspect-ratio:4/3;max-height:340px}.career-results{grid-template-columns:1fr 1fr}.result{min-height:140px}.testimonials-grid{grid-template-columns:1fr}.testimonial-card{padding:22px}}
 @media(max-width:420px){.career-results{grid-template-columns:1fr}.result{min-height:0}}
+
+/* Revisão 3 — serviços e resultados */
+.services-grid{grid-template-columns:repeat(3,minmax(0,1fr));gap:20px}
+.service-card{min-height:370px;padding:0 24px 26px;border-radius:18px}
+.service-card:before{height:190px;background-position:center;background-size:cover}
+.service-card-1:before{background-image:url('assets/jornada-moderna.webp')}
+.service-card-2:before{background-image:url('assets/processos-modernos.webp')}
+.service-card-3:before{background-image:url('assets/lideranca-moderna.webp')}
+.service-card h3{margin:208px 0 9px;font-size:20px}
+.service-top{z-index:1}
+.career-grid{grid-template-columns:minmax(0,1.05fr) minmax(0,1fr);gap:24px;align-items:center}
+.career-results{background:linear-gradient(145deg,#12243d,#0b1729);border:0;color:white;box-shadow:0 22px 55px rgba(16,24,41,.15);padding:24px;gap:12px}
+.career-results h3{font:800 20px Manrope,sans-serif;color:white;margin:0 0 8px}
+.career-results .result{background:rgba(255,255,255,.065);border:1px solid rgba(213,227,55,.25);border-radius:14px;padding:18px 14px;min-height:145px;display:flex;flex-direction:column;align-items:flex-start;gap:5px;transition:transform .2s,background .2s}
+.career-results .result:hover{transform:translateY(-3px);background:rgba(255,255,255,.11)}
+.career-results .result strong{font-size:clamp(24px,2.7vw,35px);color:#d5e337;min-width:0;line-height:1.1}
+.career-results .result span:not(.result-index){color:#e2e8f0;font-size:12px;line-height:1.4}
+.career-results .result-index{color:#d5e337;font-size:11px}
+.career-results .result-note{color:#cbd3df;font-size:10px}
+.results-cta{grid-column:1/-1;display:block;text-align:center;background:#d5e337;color:#101829;font-weight:800;padding:13px 16px;border-radius:12px;font-size:13px}
+.results-cta:hover{background:#e5f07b}
+@media(max-width:900px){.services-grid{grid-template-columns:repeat(2,minmax(0,1fr))}.career-grid{grid-template-columns:1fr}}
+@media(max-width:650px){.services-grid{grid-template-columns:1fr}.service-card{min-height:350px}.service-card h3{margin-top:205px}.career-results{grid-template-columns:repeat(2,minmax(0,1fr));padding:15px}.career-results .result{min-height:160px;padding:12px}.career-results .result strong{font-size:25px}}
+@media(max-width:420px){.career-results{grid-template-columns:1fr}.career-results .result{min-height:0}}
