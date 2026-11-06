@@ -1,15 +1,10 @@
-# Let Me Know — Revisão 4
+# Let Me Know, Revisão 6: SEO técnico
 
-Site estático HTML, CSS e JavaScript, pronto para GitHub Pages.
+Inclui otimizações de título, descrição, canonical, Open Graph, Twitter Cards, dados estruturados Schema.org, robots.txt e sitemap.xml.
 
 ## Publicação
-Envie **todo o conteúdo desta pasta** para a raiz do repositório `brunobelolima/letmeknow` (branch `main`), substituindo os arquivos anteriores e mantendo a pasta `assets/`.
+Envie TODOS os arquivos e a pasta assets para a raiz do repositório GitHub Pages. Configure o domínio personalizado `www.lmkconsultoria.com.br` no GitHub Pages e os registros DNS no Registro.br.
 
-## Revisão 4
-- Três soluções (sem CRM/performance comercial).
-- Imagens modernas para cada solução como elementos HTML.
-- Seção de Priscila reorganizada com quatro resultados de projetos reais, fotografia e texto.
-- Estilos com versão `?v=4` para evitar cache antigo.
-- Mantidos depoimentos anônimos e formulário WhatsApp.
+O sitemap e o canonical usam o domínio personalizado. Caso o DNS ainda não esteja funcionando, conclua essa configuração antes de validar a indexação.
 
-Revisão 5: remoção dos travessões dos textos visíveis do site, preservando conteúdo e layout.
+Após a publicação, cadastre `https://www.lmkconsultoria.com.br/sitemap.xml` no Google Search Console. A indexação não é garantida e depende do Google.
