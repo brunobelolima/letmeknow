@@ -11,3 +11,5 @@ Envie **todo o conteúdo desta pasta** para a raiz do repositório `brunobelolim
 - Seção de Priscila reorganizada com quatro resultados de projetos reais, fotografia e texto.
 - Estilos com versão `?v=4` para evitar cache antigo.
 - Mantidos depoimentos anônimos e formulário WhatsApp.
+
+Revisão 5: remoção dos travessões dos textos visíveis do site, preservando conteúdo e layout.
