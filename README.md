@@ -1,14 +1,13 @@
-# Let Me Know — Revisão 3
+# Let Me Know — Revisão 4
 
-Site institucional responsivo para Priscila Braz.
-
-## Atualizações
-- Três soluções: Jornada do cliente (B2B/B2C), Processos e operações, Indicadores e liderança.
-- Imagens modernas nos cartões de serviços.
-- Painel de quatro indicadores de projetos reais da trajetória executiva.
-- Clientes anônimos, formulário via WhatsApp e demais conteúdos preservados.
+Site estático HTML, CSS e JavaScript, pronto para GitHub Pages.
 
 ## Publicação
-Envie `index.html`, `styles.css`, `script.js` e toda a pasta `assets/` para a raiz do repositório GitHub. Ative Settings > Pages > Deploy from a branch > main / root.
+Envie **todo o conteúdo desta pasta** para a raiz do repositório `brunobelolima/letmeknow` (branch `main`), substituindo os arquivos anteriores e mantendo a pasta `assets/`.
 
-O formulário abre o WhatsApp; não armazena dados em servidor.
+## Revisão 4
+- Três soluções (sem CRM/performance comercial).
+- Imagens modernas para cada solução como elementos HTML.
+- Seção de Priscila reorganizada com quatro resultados de projetos reais, fotografia e texto.
+- Estilos com versão `?v=4` para evitar cache antigo.
+- Mantidos depoimentos anônimos e formulário WhatsApp.
