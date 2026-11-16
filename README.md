@@ -11,3 +11,7 @@ A contagem começa com a primeira visita após a publicação. O serviço guarda
 O serviço externo pode ficar indisponível ou mudar suas regras. Quando isso ocorrer, o contador mostra `Indisponível`, não um número inventado. As requisições enviam informações de conexão ao serviço externo; avalie atualizar o aviso de privacidade do site.
 
 O contador não é ativado nesta cópia local nem no site público até que os arquivos sejam publicados. Não foi criado nenhum número inicial fictício.
+
+
+## Revisão 14
+O contador foi agrupado com o logotipo no cabeçalho, eliminando a separação provocada pelo layout anterior. Publique index.html e styles.css juntos. A contagem depende da disponibilidade da API externa.
