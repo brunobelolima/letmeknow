@@ -1,0 +1,10 @@
+name = "lmk-visit-counter"
+main = "worker.js"
+compatibility_date = "2026-11-01"
+
+# Após criar o banco com wrangler d1 create lmk-visits,
+# descomente e preencha o database_id abaixo.
+# [[d1_databases]]
+# binding = "DB"
+# database_name = "lmk-visits"
+# database_id = "COLE_AQUI_O_DATABASE_ID"

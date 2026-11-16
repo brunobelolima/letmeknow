@@ -120,3 +120,14 @@
 @media(max-width:740px){.services-grid{grid-template-columns:1fr 1fr}.service-visual{height:165px}.service-card h3{font-size:18px}.career-intro{grid-template-columns:160px minmax(0,1fr)}}
 @media(max-width:600px){.services-grid{grid-template-columns:1fr}.service-visual{height:205px}.career-intro{grid-template-columns:1fr}.priscila-photo{grid-row:auto;max-width:370px}.priscila-photo img{max-height:380px}.career-results{padding:18px}}
 @media(max-width:420px){.career-results{grid-template-columns:1fr}.career-results .result{min-height:0}}
+
+/* Contador de visitas */
+.visitor-counter { display: inline-flex; align-items: center; gap: .35rem; font-size: .82rem; opacity: .85; }
+.visitor-counter strong { font-variant-numeric: tabular-nums; color: #d5e337; font-weight: 700; }
+@media (max-width: 740px) { .footer-bottom { flex-wrap: wrap; gap: .8rem; } .visitor-counter { width: 100%; } }
+
+/* Revisão 9: contador discreto no canto superior direito */
+.site-header{position:sticky}
+.visitor-counter-header{position:absolute;top:3px;right:max(12px,calc((100vw - 1160px)/2));z-index:23;display:inline-flex;align-items:center;gap:6px;padding:2px 9px;border-radius:0 0 8px 8px;background:rgba(213,227,55,.13);border:1px solid rgba(213,227,55,.2);border-top:0;color:#f1f5dd;font-size:10px;line-height:1.35;white-space:nowrap;opacity:1}
+.visitor-counter-header strong{color:#d5e337;font-size:11px;max-width:145px;overflow:hidden;text-overflow:ellipsis}
+@media(max-width:700px){.visitor-counter-header{top:25px;right:66px;padding:3px 6px;border:1px solid rgba(213,227,55,.2);border-radius:8px;font-size:10px}.visitor-counter-header .visitor-counter-label{display:none}.visitor-counter-header strong{font-size:10px;max-width:100px}}
