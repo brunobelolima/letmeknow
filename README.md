@@ -15,3 +15,6 @@ O contador não é ativado nesta cópia local nem no site público até que os a
 
 ## Revisão 14
 O contador foi agrupado com o logotipo no cabeçalho, eliminando a separação provocada pelo layout anterior. Publique index.html e styles.css juntos. A contagem depende da disponibilidade da API externa.
+
+## Revisão 15
+Aumentado o espaçamento horizontal entre o logotipo e o contador de visitas, mantendo o contador à direita do logotipo.

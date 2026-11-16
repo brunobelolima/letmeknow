@@ -150,3 +150,8 @@
 @media(max-width:800px){.site-header .brand-counter-group .visitor-counter-label{display:none}}
 @media(max-width:700px){.site-header .nav{margin-left:0}.site-header .menu-toggle{margin-left:auto}.site-header .brand-counter-group{gap:7px}.site-header .brand-counter-group .visitor-counter-header{width:auto;max-width:none}}
 @media(max-width:420px){.site-header .brand-counter-group .visitor-counter-header{font-size:9px;padding:3px 5px}.site-header .brand-counter-group .visitor-counter-header strong{max-width:100px}}
+
+/* Revisão 15: respiro maior entre logotipo e contador. */
+.site-header .brand-counter-group{gap:22px}
+@media(max-width:950px){.site-header .brand-counter-group{gap:16px}}
+@media(max-width:700px){.site-header .brand-counter-group{gap:12px}}
